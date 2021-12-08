@@ -6,7 +6,7 @@ function number() {
 
     console.log(nombre_random_1, nombre_random_2);
     if (nombre_random_1 >= 0 && nombre_random_2 >= 0){
-        document.getElementById("calcul").innerHTML = "Quel est le résultat de: " + nombre_random_1 + " multiplier par: " + nombre_random_2
+        document.getElementById("calcul").innerHTML = "What the result of: " + nombre_random_1 + " mutiplied by: " + nombre_random_2
     }else{
         document.getElementById("calcul").innerHTML = "First or second number must be greater or equal to 0."
     }
