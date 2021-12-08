@@ -1,0 +1,59 @@
+body{
+    background-color: hsl(273, 58%, 46%);
+}
+.h1_MainTitle{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10%;
+    text-shadow: 3px 3px 7px black;
+    font-size: 50px;
+}
+.p_MainText{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 2%;
+    text-shadow: 3px 3px 7px black;
+    font-size: 20px;
+}
+#TextInput, #TextInput2{
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+}
+#CalculDiv{
+    width: 500px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#ButtonCalcul{
+    margin: auto;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    background-color: hsl(27, 77%, 57%);
+    border: none;
+}
+#ButtonCalcul:hover{
+    cursor: pointer;
+}
+
+.h1_Calcul{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 3px 3px 7px black;
+    font-size: 30px;
+}
+#resultDiv{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
