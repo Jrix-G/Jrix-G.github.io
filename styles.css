@@ -1,6 +1,9 @@
 body{
     background-color: #121214;
     text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h1{
     color: white;
