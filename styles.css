@@ -1,9 +1,36 @@
 body{
     background-color: #121214;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.mainDiv{
+    margin-right: auto;
+    margin-left: auto;
     margin-top: auto;
     margin-bottom: auto;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 600px;
+    padding: 10px;
+    background-color: blue;
+    font-size: 10px;
+    animation-duration: 2s;
+    animation-name: mainAnimation;
+    animation-iteration-count: infinite;
+    border-radius: 5px;
+    position: relative;
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin: auto;
+    border-image: url("https://i.pinimg.com/150x150/8b/12/ed/8b12edebe165638e123936bee9b5e39a.jpg://www.google.com/search?q=image&sxsrf=APq-WBs07OtzjZu2jddXjYdj8Y6Re3rd3w:1647430358932&tbm=isch&source=iu&ictx=1&vet=1&fir=ItY9cBsepnqjwM%252CYMrfs-kIZ4Ew8M%252C_%253BmAU6jx73udcEqM%252CRpPxxPFVAGtHaM%252C_%253BT-5LPareUNz_0M%252CMg7hSXjkHWG3wM%252C_%253B7dmpjfGEZoXSVM%252C6NiCcD1_F05BmM%252C_%253B0DzWhtJoQ1KWgM%252Cpie7M4kW1H9BfM%252C_%253BbDjlNH-20Ukm8M%252CE6NZnQpByECJPM%252C_%253BqXynBYpZpHkhWM%252CLXLE9wLzF8n9vM%252C_%253BMOAYgJU89sFKnM%252CZ_eGzcyTurSWHM%252C_%253BcrfXWJAUWwZv_M%252Cwu2NBJuBKFH9OM%252C_%253BA4G7eW2zetaunM%252CDk0je1fDK9JQJM%252C_%253B29-1h5KEZWSYuM%252CfX4IROyhOIKgGM%252C_%253BY6pVL1x5vDTXyM%252CAUGex1t7pBVh6M%252C_&usg=AI4_-kQXF3m6KceDNyxf28zb2FENIn9Mkw&sa=X&ved=2ahUKEwjZgNiqxMr2AhVKzhoKHYm3DF4Q9QF6BAgEEAE#imgrc=ItY9cBsepnqjwMhttps://i.pinimg.com/150x150/8b/12/ed/8b12edebe165638e123936bee9b5e39a.jpg"), 30;
+}
+@keyframes mainAnimation{
+    0%{
+        background-color: blue;
+    }
+    50%{
+        background-color: red;
+    }
+    100%{
+        background-color: blue;
+    }
 }
 h1{
     color: white;
